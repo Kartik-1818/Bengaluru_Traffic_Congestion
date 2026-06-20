@@ -103,12 +103,6 @@ Bengaluru_Traffic_Congestion-main/
 **Priority Classifier — Feature Importance**
 ![Priority feature importance](assets/model1_feature_importance.png)
 
-**Interactive Hotspot Map**
-An interactive Folium heatmap of all incidents, with high-severity and road-closure events
-marked individually, is available at [`assets/bengaluru_hotspot_map.html`](assets/bengaluru_hotspot_map.html).
-GitHub doesn't render embedded HTML inline, so clone the repo and open the file locally
-(or open it directly from the file browser above) to interact with it.
-
 ---
 
 ### Models
