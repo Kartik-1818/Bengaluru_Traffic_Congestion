@@ -234,9 +234,7 @@ def metric_card(label, value, sub="", color="#4a90d9"):
 
 # ──── UI Layout ──────────────────────────────────────────────────────────────
 st.markdown("""
-<h1 style="margin:0;font-size:26px;">🚦 Bengaluru Traffic Congestion Response Recommender
-  <span style="font-size:13px;color:#888;margin-left:10px;">v2 · XGBoost · Calibrated Confidence</span>
-</h1>
+<h1 style="margin:0;font-size:26px;">🚦 Bengaluru Traffic Congestion Response Recommender</h1>
 
 <hr style="border-color:#2a2e3e;margin:10px 0 20px 0">
 """, unsafe_allow_html=True)
