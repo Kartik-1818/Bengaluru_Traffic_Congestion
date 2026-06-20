@@ -405,5 +405,5 @@ with col_result:
 st.markdown("---")
 fc1, fc2, fc3 = st.columns(3)
 fc1.caption("🏆 Gridlock Hackathon 2.0 · Theme 2 · Event-Driven Congestion")
-fc2.caption(f" ")
-fc3.caption("📍 Data: ASTRAM Bengaluru Traffic Events")
+
+fc2.caption("📍 Data: ASTRAM Bengaluru Traffic Events")
