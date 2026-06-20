@@ -207,21 +207,6 @@ matplotlib
 
 Visual outputs are saved to `assets/` and include distribution plots, time-pattern charts, corridor/zone heatmaps, and an interactive Folium map.
 
----
-
-## 🏆 Hackathon Context
-
-Built for **Gridlock Hackathon 2.0** (Theme 2 — Event-Driven Congestion) using the ASTRAM Bengaluru dataset.
-
-**v2 improvements over v1:**
-- XGBoost replacing RandomForest → AUC 0.98, F1 0.90 on priority
-- Circular time encoding (sin/cos) for hour, month, day
-- Haversine distances to 6 congestion hotspots
-- Calibrated confidence (77%+ confidence @ 80th percentile vs ~51% before)
-- Threshold-optimised closure model handling severe class imbalance
-- Richer UX: confidence gauges, risk timeline, hotspot map, action checklist
-
----
 
 ## 🗺️ Known Hotspot Coordinates
 
