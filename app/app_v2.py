@@ -404,5 +404,5 @@ with col_result:
 # ──── Footer ────────────────────────────────────────────────────────────────
 st.markdown("---")
 fc1, fc2 = st.columns(2,width="stretch")
-fc1.caption("🏆 Gridlock Hackathon 2.0 · Theme 2 · Event-Driven Congestion")
-fc2.caption("📍 Data: ASTRAM Bengaluru Traffic Events")
+fc1.markdown("🏆 Gridlock Hackathon 2.0 · Theme 2 · Event-Driven Congestion")
+fc2.markdown("📍 Data: ASTRAM Bengaluru Traffic Events")
