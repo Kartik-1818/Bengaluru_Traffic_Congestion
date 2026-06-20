@@ -243,4 +243,3 @@ if present, falling back to the v1 bundle otherwise.
 ## Dataset
 Provided by HackerEarth Gridlock Hackathon 2.0 (ASTRAM Bengaluru traffic event data,
 anonymized). See challenge page for access.
-# Bengaluru_Traffic_Congestion
