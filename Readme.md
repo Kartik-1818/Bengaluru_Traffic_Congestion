@@ -100,9 +100,6 @@ Bengaluru_Traffic_Congestion-main/
 **Priority Classifier — Confusion Matrix**
 ![Priority confusion matrix](assets/model1_confusion_matrix.png)
 
-**Priority Classifier — Feature Importance**
-![Priority feature importance](assets/model1_feature_importance.png)
-
 ---
 
 ### Models
