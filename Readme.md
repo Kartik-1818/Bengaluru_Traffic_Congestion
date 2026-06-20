@@ -132,7 +132,7 @@ Three one-click presets for demo purposes:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/Bengaluru_Traffic_Congestion.git
+git clone https://github.com/Kartik-1818/Bengaluru_Traffic_Congestion
 cd Bengaluru_Traffic_Congestion
 ```
 
