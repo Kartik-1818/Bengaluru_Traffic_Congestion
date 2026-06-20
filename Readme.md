@@ -75,6 +75,41 @@ Bengaluru_Traffic_Congestion-main/
 - **Haversine distances** to 6 known congestion hotspots (MG Road, Silk Board, Hebbal, Marathahalli, Whitefield, Electronic City)
 - **Interaction features:** `peak_x_cause`, `weekend_x_cause`
 - **Cause severity score** from lookup map
+---
+
+### Exploratory Data Analysis
+
+**Event Distributions** — cause breakdown, planned vs unplanned, priority, status
+![Event distributions](assets/step2_distributions.png)
+
+**Time Patterns** — incidents by hour/day/month, hour×day heatmap
+![Time patterns](assets/step3_time_patterns.png)
+
+**Severity Analysis** — duration by cause, closure rate by cause, severity index distribution
+![Severity analysis](assets/step4_severity.png)
+
+**Corridor & Zone Analysis** — top corridors by risk, zone-wise incident load, police station load
+![Corridor and zone analysis](assets/step5_corridors_zones.png)
+
+**Zone × Time Manpower Matrix** — deployment planning heatmap
+![Zone time matrix](assets/step5_zone_time_matrix.png)
+
+**Planned vs Unplanned — Cause Comparison**
+![Planned vs unplanned](assets/eda_extra1_planned_vs_unplanned.png)
+
+**Priority Classifier — Confusion Matrix**
+![Priority confusion matrix](assets/model1_confusion_matrix.png)
+
+**Priority Classifier — Feature Importance**
+![Priority feature importance](assets/model1_feature_importance.png)
+
+**Interactive Hotspot Map**
+An interactive Folium heatmap of all incidents, with high-severity and road-closure events
+marked individually, is available at [`assets/bengaluru_hotspot_map.html`](assets/bengaluru_hotspot_map.html).
+GitHub doesn't render embedded HTML inline, so clone the repo and open the file locally
+(or open it directly from the file browser above) to interact with it.
+
+---
 
 ### Models
 
