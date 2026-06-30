@@ -18,7 +18,7 @@ The v2 Streamlit app uses **XGBoost** models with rich feature engineering (circ
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Bengaluru_Traffic_Congestion-main/
@@ -53,7 +53,7 @@ Bengaluru_Traffic_Congestion-main/
 
 ---
 
-## 🧠 ML Pipeline
+## ML Pipeline
 
 ### Dataset
 - **Source:** ASTRAM Bengaluru Traffic Events (`Hack_dataset.csv`)
