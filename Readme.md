@@ -1,11 +1,11 @@
-# 🚦 Bengaluru Event-Driven Traffic Congestion — Response Recommender
+# Bengaluru Event-Driven Traffic Congestion — Response Recommender
 
 > **Gridlock Hackathon 2.0 · Theme 2 · Event-Driven Congestion**  
 > An ML-powered dashboard that predicts incident impact and recommends manpower, barricading, and police station deployment in real time.
 
 ---
 
-## 📌 Overview of the project
+## Overview of the project
 
 Bengaluru handles thousands of traffic incidents daily — from vehicle breakdowns to VIP movements and protests. This project trains three machine learning models on 8,173 ASTRAM traffic events to:
 
@@ -125,7 +125,7 @@ Serialised with `joblib`, the bundle contains:
 
 ---
 
-## 🖥️ Streamlit App (`app/app_v2.py`)
+## Streamlit App (`app/app_v2.py`)
 
 ### What It Does
 1. Accepts an incoming traffic event (type, cause, GPS, time, zone)
@@ -150,7 +150,7 @@ Three one-click presets for demo purposes:
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 - Python 3.9+
@@ -185,7 +185,7 @@ The app will open at `http://localhost:8501` in your browser.
 
 ---
 
-## 📓 Reproducing the Training (Notebook)
+## Reproducing the Training (Notebook)
 
 The full pipeline lives in `notebook/Flipkart_grid_notebook_complete.ipynb` and was developed on **Google Colab**.
 
@@ -205,7 +205,7 @@ pip install xgboost imbalanced-learn plotly folium
 
 ---
 
-## 📦 Dependencies (`requirements.txt`)
+## Dependencies (`requirements.txt`)
 
 ```
 pandas
@@ -221,7 +221,7 @@ matplotlib
 
 ---
 
-## 📊 EDA Highlights
+## EDA Highlights
 
 | Insight | Detail |
 |---------|--------|
@@ -234,7 +234,7 @@ matplotlib
 Visual outputs are saved to `assets/` and include distribution plots, time-pattern charts, corridor/zone heatmaps, and an interactive Folium map.
 
 
-## 🗺️ Known Hotspot Coordinates
+## Known Hotspot Coordinates
 
 | Hotspot | Latitude | Longitude |
 |---------|----------|-----------|
@@ -247,6 +247,6 @@ Visual outputs are saved to `assets/` and include distribution plots, time-patte
 
 ---
 
-## 📄 License
+## License
 
 This project was developed as a hackathon submission. Dataset rights belong to ASTRAM / the hackathon organisers.
