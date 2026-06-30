@@ -5,7 +5,7 @@
 
 ---
 
-## 📌 Overview
+## 📌 Overview of the project
 
 Bengaluru handles thousands of traffic incidents daily — from vehicle breakdowns to VIP movements and protests. This project trains three machine learning models on 8,173 ASTRAM traffic events to:
 
