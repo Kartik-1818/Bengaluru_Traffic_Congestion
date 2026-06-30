@@ -62,12 +62,12 @@ Bengaluru_Traffic_Congestion-main/
 
 ### Preprocessing (Notebook)
 1. Drop fully-null columns (`map_file`, `comment`, `meta_data`)
-2. Parse all datetime columns; remove rows with `end_datetime < start_datetime`
+2. Parse all datetime columns;remove rows with`end_datetime < start_datetime`
 3. Drop columns with >90% missing values
 4. Replace placeholder `0.0` in `endlatitude` / `endlongitude` with `NaN`
 5. Derive `duration_hrs` from `(closed_datetime − start_datetime)`
-6. Extract time features: `hour`, `day_of_week`, `month_num`
-7. Engineer binary flags: `is_weekend`, `is_peak_hour` (7–9 AM, 5–8 PM), `is_night` (10 PM–6 AM)
+6. Extract time features:`hour`, `day_of_week`, `month_num`
+7. Engineer binary flags: `is_weekend`, `is_peak_hour` (7–9 AM,5–8 PM), `is_night` (10 PM–6 AM)
 8. Normalise `event_cause` (lowercase + strip)
 
 ### Feature Engineering (v2 App)
